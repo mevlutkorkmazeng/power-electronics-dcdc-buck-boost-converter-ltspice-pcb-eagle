@@ -35,6 +35,17 @@ Key features analyzed in this project:
 
 ![Buck Circuit](images/buck_converter_circuit.png)
 
+## Converter Specifications
+
+| Parameter | Value |
+|-----------|------|
+| Input Voltage | 12 V |
+| Inductor | 100 µH |
+| Capacitor | 100 µF |
+| Load Resistance | 10 Ω |
+| Switching Frequency | 2.5 kHz |
+| Duty Cycle | ~35% |
+
 ## Buck Converter Simulation Results
 
 ### PWM Gate Signal and Output Voltage
