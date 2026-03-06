@@ -123,7 +123,24 @@ The converter operates in two main switching states:
 By controlling the **PWM duty cycle**, the average output voltage of the converter can be regulated.
 
 ---
+## PCB Design
 
+After completing the simulation phase, the Buck Converter circuit was implemented as a printed circuit board (PCB) using Autodesk EAGLE.
+
+The PCB design includes:
+- IRLZ44Z power MOSFET
+- 1N4004 freewheeling diode
+- 100 µH inductor
+- 100 µF output capacitor
+- 10 Ω load resistor
+
+A ground plane was added to improve current return paths and reduce noise in the switching converter.
+
+### PCB Layout
+
+![Buck Converter PCB](pcb/pcb_layout.png)
+
+---
 ## Project Structure
 
 * `docs/` → theory notes and design explanations
